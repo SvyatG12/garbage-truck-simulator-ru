@@ -1,0 +1,173 @@
+# Garbage Truck Simulator — русский интерфейс
+# После знака @ указывается имя объекта интерфейса. Поля разделены табуляцией.
+# Обучение
+@Tutorial_Street_1	Время пошло! Наберите как можно больше очков до конца смены.
+@Tutorial_Street_2	Раздавленный мусор приносит очки. Опасные предметы в пресс не кладите.
+@Tutorial_Street_3	Осмотритесь <style=Player/lookAround>, подойдите к тротуару <style=Player/movement> и подберите мусор <style=Player/interact_trash>.
+@Tutorial_Street_4	Поверните предмет <style=Player/rotateTrash> и положите в лоток <style=Player/interact_trash>. Длинные вещи удобнее класть вдоль.
+@Tutorial_Street_5	Подойдите к пульту пресса на правом борту мусоровоза.
+@Tutorial_Street_7	После прессования можно ехать к следующей куче. Встаньте у кабины или задней подножки и нажмите <style=Player/truckAccel>.
+@Tutorial_Street_8	Чтобы остановиться, нажмите на тормоз <style=Player/truckBrake>.
+@Tutorial_Mission_1	Вынесите и спрессуйте весь мусор в здании как можно быстрее.
+@Tutorial_Mission_2	Таймер остановится, когда вы спрессуете весь мусор.
+@Tutorial_Mission_3	Осмотритесь <style=Player/lookAround>, зайдите в здание <style=Player/movement> и подберите мусор <style=Player/interact_trash>.
+@Tutorial_Mission_4	Поверните предмет <style=Player/rotateTrash> и положите в лоток <style=Player/interact_trash>. Длинные вещи удобнее класть вдоль.
+@Tutorial_Mission_5	Подойдите к пульту пресса на правом борту мусоровоза.
+@Tutorial_Mission_7	Машина останется на месте. Вернитесь за мусором и проверьте, не осталось ли предметов на стенах и потолке.
+
+# Меню, настройки, маршруты, подсказки и надписи во время смены
+TRUCK:	МАШИНА:
+Audio	Звук
+EXIT TO MENU	В ГЛАВНОЕ МЕНЮ
+BACK	НАЗАД
+OPTIONS	НАСТРОЙКИ
+Options	Настройки
+Limited Physics Mode (only for slow computers)	Упрощённая физика (для слабых ПК)
+Resolution	Разрешение
+Master Volume	Общая громкость
+MISSION PASSED	ЗАДАНИЕ ВЫПОЛНЕНО
+QUIT GAME	ВЫЙТИ ИЗ ИГРЫ
+Player Move Speed	Скорость ходьбы
+LOADING...	ЗАГРУЗКА…
+GLOBAL HIGHSCORES:	МИРОВАЯ ТАБЛИЦА РЕКОРДОВ:
+Game	Игра
+OWN HIGHSCORE:	ЛИЧНЫЙ РЕКОРД:
+CONTINUE	ПРОДОЛЖИТЬ
+PAUSE	ПАУЗА
+PRESS	НАЧАТЬ СМЕНУ
+TRUCK FULL	КУЗОВ ПОЛОН
+Notification Sounds	Звуки уведомлений
+Save My Highscores	Отправлять рекорды в Steam
+Full Screen Mode	Режим окна
+CONTROLLER DISCONNECTED	ГЕЙМПАД ОТКЛЮЧЁН
+DUMP & CONTINUE	РАЗГРУЗИТЬСЯ И ПРОДОЛЖИТЬ
+Graphics	Графика
+VSync	Вертикальная синхронизация
+MODE:	РЕЖИМ:
+Y-axis invert	Инверсия мыши по вертикали
+TIME:	ВРЕМЯ:
+FINISHED	РЕЙС ЗАВЕРШЁН
+Please restart the game to apply changes.	Перезапустите игру, чтобы применить изменения.
+SCORE:	ОЧКИ:
+Use Shadows	Тени
+Use High Res Textures	Текстуры высокого разрешения
+Loading	Загрузка…
+LOADING	ЗАГРУЗКА…
+Graphics Quality	Качество графики
+Music Volume	Громкость музыки
+Refresh Rate	Частота обновления
+Apply	Применить
+Full Screen (Exclusive)	Полный экран
+Full Screen (Windowed)	Без рамки
+Maximized Window	Развёрнутое окно
+Window	В окне
+Infinite	Без ограничений
+None	Выкл.
+Very Low	Очень низкое
+Low	Низкое
+Medium	Среднее
+High	Высокое
+Very High	Очень высокое
+Ultra	Ультра
+superclean	Идеально чисто!
+Street Collection: Bulk	Вывоз крупного мусора
+Street Collection: Residential	Вывоз бытового мусора
+Street Collection: Cardboard	Сбор картона
+Clearing: Doctor's Office	Расчистка кабинета врача
+Clearing: Bar	Расчистка бара
+Clearing: House	Расчистка жилого дома
+Straßensammlung: Sperrmüll	Вывоз крупного мусора
+Straßensammlung: Hausmüll	Вывоз бытового мусора
+Straßensammlung: Altpapier	Сбор картона
+Räumung: Arztpraxis	Расчистка кабинета врача
+Räumung: Kneipe	Расчистка бара
+Räumung: Wohnhaus	Расчистка жилого дома
+Run compactor: <style=Player/truckCompact>	Включить пресс: <style=Player/truckCompact>
+Presse auslösen: <style=Player/truckCompact>	Включить пресс: <style=Player/truckCompact>
+FAHRZEUG:	МАШИНА:
+Retract assist panel: <style=Player/truckAssistPanelRetract>	Поднять загрузочную панель: <style=Player/truckAssistPanelRetract>
+Hilfsplatte einfahren: <style=Player/truckAssistPanelRetract>	Поднять загрузочную панель: <style=Player/truckAssistPanelRetract>
+Accelerate truck: <style=Player/truckAccel>	Тронуться: <style=Player/truckAccel>
+LKW beschleunigen: <style=Player/truckAccel>	Тронуться: <style=Player/truckAccel>
+BEENDEN	В ГЛАВНОЕ МЕНЮ
+Brake truck: <style=Player/truckBrake>	Тормозить: <style=Player/truckBrake>
+LKW bremsen: <style=Player/truckBrake>	Тормозить: <style=Player/truckBrake>
+ZURÜCK	НАЗАД
+OPTIONEN	НАСТРОЙКИ
+Einfache Physik verwenden (nur für langsame PCs)	Упрощённая физика (для слабых ПК)
+Auflösung	Разрешение
+Lower assist panel: <style=Player/truckAssistPanelEngage>	Опустить загрузочную панель: <style=Player/truckAssistPanelEngage>
+Hilfsplatte ausfahren: <style=Player/truckAssistPanelEngage>	Опустить загрузочную панель: <style=Player/truckAssistPanelEngage>
+Gesamtlautstärke	Общая громкость
+Pick up / drop Trash: <style=Player/interact_trash>	Взять / положить мусор: <style=Player/interact_trash>
+Müll aufheben / ablegen: <style=Player/interact_trash>	Взять / положить мусор: <style=Player/interact_trash>
+ERFOLGREICH	ЗАДАНИЕ ВЫПОЛНЕНО
+SPIEL BEENDEN	ВЫЙТИ ИЗ ИГРЫ
+Laufgeschwindigkeit	Скорость ходьбы
+LÄDT...	ЗАГРУЗКА…
+GLOBALE BESTENLISTE:	МИРОВАЯ ТАБЛИЦА РЕКОРДОВ:
+Spiel	Игра
+EIGENER HIGHSCORE:	ЛИЧНЫЙ РЕКОРД:
+WEITERSPIELEN	ПРОДОЛЖИТЬ
+Show/hide Help: <style=Player/menuHelpToggle>	Показать / скрыть подсказки: <style=Player/menuHelpToggle>
+Hilfe aus-/einblenden: <style=Player/menuHelpToggle>	Показать / скрыть подсказки: <style=Player/menuHelpToggle>
+PRESSEN	НАЧАТЬ СМЕНУ
+LADERAUM IST VOLL	КУЗОВ ПОЛОН
+Hinweistöne	Звуки уведомлений
+Meine Highscores speichern	Отправлять рекорды в Steam
+Fenstermodus	Режим окна
+Müllauto- Simulator	Симулятор мусоровоза
+CONTROLLER GETRENNT	ГЕЙМПАД ОТКЛЮЧЁН
+AUSLEEREN & WEITER	РАЗГРУЗИТЬСЯ И ПРОДОЛЖИТЬ
+Walk around: <style=Player/movement>	Ходить: <style=Player/movement>
+Laufen: <style=Player/movement>	Ходить: <style=Player/movement>
+Grafik	Графика
+MODUS:	РЕЖИМ:
+Y-Achse invertieren	Инверсия мыши по вертикали
+ZEIT:	ВРЕМЯ:
+BEENDET	РЕЙС ЗАВЕРШЁН
+Look: <style=Player/lookAround>	Осмотреться: <style=Player/lookAround>
+Umschauen: <style=Player/lookAround>	Осмотреться: <style=Player/lookAround>
+Start compactor: <style=Player/truckCompact>	Включить пресс: <style=Player/truckCompact>
+Presse starten: <style=Player/truckCompact>	Включить пресс: <style=Player/truckCompact>
+Bitte Spiel neustarten, um Änderungen zu übernehmen.	Перезапустите игру, чтобы применить изменения.
+PUNKTE:	ОЧКИ:
+Schatten	Тени
+Move lifted Trash: <style=Player/rotateTrash>	Повернуть предмет: <style=Player/rotateTrash>
+Ausgewählten Müll ausrichten: <style=Player/rotateTrash>	Повернуть предмет: <style=Player/rotateTrash>
+Hochauflösende Texturen	Текстуры высокого разрешения
+Optionen	Настройки
+Start compactor	Включить пресс
+Pick up Trash: <style=Player/interact_trash>	Взять / положить мусор: <style=Player/interact_trash>
+To walk around: <style=Player/movement>	Ходить: <style=Player/movement>
+
+Infinite: Bulk	Без таймера · Крупный мусор
+Infinite: Residential	Без таймера · Бытовой мусор
+Infinite: Cardboard	Без таймера · Картон
+Endlos: Sperrmüll	Без таймера · Крупный мусор
+Endlos: Hausmüll	Без таймера · Бытовой мусор
+Endlos: Altpapier	Без таймера · Картон
+
+# Описания режимов в порядке меню. \n начинает новую строку.
+@mode.0	<b>На очки · Есть лимит времени</b>\nСобирайте у дороги мебель и другие крупные вещи.
+@mode.1	<b>На очки · Есть лимит времени</b>\nСобирайте мусорные мешки и другие бытовые отходы.
+@mode.2	<b>На очки · Есть лимит времени</b>\nСобирайте коробки и картон вдоль улицы.
+@mode.3	<b>На время · Мусоровоз стоит на месте</b>\nВынесите и спрессуйте весь мусор из кабинета врача.
+@mode.4	<b>На время · Мусоровоз стоит на месте</b>\nВынесите и спрессуйте весь мусор из бара.
+@mode.5	<b>На время · Мусоровоз стоит на месте</b>\nВынесите и спрессуйте весь мусор из жилого дома.
+@mode.6	<b>Свободный вывоз · Без таймера</b>\nСобирайте крупные вещи вдоль улицы в своём темпе.
+@mode.7	<b>Свободный вывоз · Без таймера</b>\nСобирайте бытовой мусор в своём темпе.
+@mode.8	<b>Свободный вывоз · Без таймера</b>\nСобирайте картон вдоль улицы в своём темпе.
+
+# Подсказки к машинам в меню
+@truck.0	<b>2R</b> · Удерживайте кнопку пресса, пока плита не закроет приёмный лоток.
+@truck.1	<b>Vulture</b> · Удерживайте кнопку пресса, пока плита не закроет приёмный лоток.
+@truck.2	<b>Shark</b> · Одно нажатие запускает вращающийся пресс.
+@truck.3	<b>Side Loader</b> · Мусор загружается сбоку. Панель можно опускать и поднимать.
+@hint.controls	<color=#B8C8C2>Подсказки в рейсе · F1 / Select</color>
+
+# Варианты обучения по режиму и машине
+@Tutorial_Street_1_Infinite	Собирайте мусор в своём темпе. В этом режиме нет таймера.
+@PressHold	Удерживайте <style=Player/truckCompact>, пока плита пресса не закроет приёмный лоток.
+@PressToggle	Один раз нажмите <style=Player/truckCompact>, чтобы запустить вращающийся пресс.
+@PressSide	Положите мусор в боковой лоток и включите пресс <style=Player/truckCompact>.
